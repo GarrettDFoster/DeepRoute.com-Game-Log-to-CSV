@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Deeproute.com Game Log to CSV",
+	"version": "2013.7.25",
+	"description": "Converts the game log to a csv file so you can analyze your playcalling with a spreadsheet.",
+	"content_scripts": [
+    {
+      "matches": ["http://deeproute.com/deeproute/*js=loggerinc*"],
+      "js": ["jquery.js","log2csv.js"]
+    }
+  ]
+}
