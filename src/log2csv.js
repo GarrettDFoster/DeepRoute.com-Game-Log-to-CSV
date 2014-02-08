@@ -38,7 +38,7 @@ function downloadCSV(){
     $rows = $start.nextUntil($stop_list.eq(i));
     
     //check for valid play
-    if($rows.find('td:contains("Offensive Players")').length == 1){
+    if($rows.find('td:contains("The ball is snapped to")').length == 1){
       
       //get scenario
       snap = $rows.find('td:contains("The ball is snapped to")').text().split(' - ');
