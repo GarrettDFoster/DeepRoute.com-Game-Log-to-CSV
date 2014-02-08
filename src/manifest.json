@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Deeproute.com Game Log to CSV",
-	"version": "2013.7.25.2",
+	"version": "2014.2.8",
 	"description": "Converts the game log to a csv file so you can analyze your playcalling with a spreadsheet.",
 	"content_scripts": [
     {
